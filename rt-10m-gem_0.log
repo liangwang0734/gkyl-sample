@@ -1,0 +1,43 @@
+Wed Jun 30 2021 10:06:42.000000000
+Gkyl built with 979bdff61528+
+Gkyl built on Jun 29 2021 10:13:37
+Initializing Multi-fluid simulation ...
+Initialization completed in 0.0540662 sec
+
+Starting main loop of Multi-fluid simulation ...
+
+ ** Time step too large! Aborting this step! ** Time step 250 too large! Will retake with dt 0.36
+ Step 0 at time 0. Time step 0.36. Completed 0%
+0123456789 Step     70 at time    25.200000.  Time step  3.600000e-01.  Completed 10%
+0123456789 Step    139 at time    50.040000.  Time step  3.600000e-01.  Completed 20%
+0123456789 Step    209 at time    75.240000.  Time step  3.600000e-01.  Completed 30%
+0123456789 Step    278 at time    100.08000.  Time step  3.600000e-01.  Completed 40%
+0123456789 Step    348 at time    125.28000.  Time step  3.600000e-01.  Completed 50%
+0123456789 Step    417 at time    150.12000.  Time step  3.600000e-01.  Completed 60%
+0123456789 Step    487 at time    175.32000.  Time step  3.600000e-01.  Completed 70%
+0123456789 Step    556 at time    200.16000.  Time step  3.600000e-01.  Completed 80%
+0123456789 Step    625 at time    225.00000.  Time step  3.600000e-01.  Completed 90%
+0123456789 Step    695 at time    250.20000.  Time step  3.600000e-01.  Completed 100%
+0
+Total number of time-steps 696
+Solver took                                    3.45104 s   ( 0.004958 s/step)   (38.191%)
+Solver BCs took                                0.36387 s   ( 0.000523 s/step)   ( 4.027%)
+Field solver took                              1.46153 s   ( 0.002100 s/step)   (16.174%)
+Field solver BCs                               0.19563 s   ( 0.000281 s/step)   ( 2.165%)
+Function field solver took                     0.00000 s   ( 0.000000 s/step)   ( 0.000%)
+Moment calculations took                       0.00000 s   ( 0.000000 s/step)   ( 0.000%)
+Integrated moment calculations took            0.25979 s   ( 0.000373 s/step)   ( 2.875%)
+Field energy calculations took                 0.16609 s   ( 0.000239 s/step)   ( 1.838%)
+Collision solver(s) took                       0.00000 s   ( 0.000000 s/step)   ( 0.000%)
+Collision (other) took                         0.00000 s   ( 0.000000 s/step)   ( 0.000%)
+Source updaters took                           2.21800 s   ( 0.003187 s/step)   (24.546%)
+Stepper combine/copy took                      0.00000 s   ( 0.000000 s/step)   ( 0.000%)
+Forward Euler combine took                     0.00000 s   ( 0.000000 s/step)   ( 0.000%)
+Time spent in barrier function                 0.03535 s   ( 0.000051 s/step)   ( 0.391%)
+Data write took                                0.43434 s   ( 0.000624 s/step)   ( 4.807%)
+Write restart took                             0.00239 s   ( 0.000003 s/step)   ( 0.026%)
+[Unaccounted for]                              0.92020 s   ( 0.001322 s/step)   (10.184%)
+
+Main loop completed in                         9.03616 s   ( 0.012983 s/step)   (   100%)
+
+Wed Jun 30 2021 10:06:51.000000000
